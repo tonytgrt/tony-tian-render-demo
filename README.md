@@ -32,3 +32,28 @@ The path tracer is able to handle microfacet materials that are between perfectl
 Various scenes with different environment maps applied. The environment maps are treated as light sources as we compute the light transport equation. Different brightness spots in the map contribute differently to the light energy. Notice the image of the environment map projected in the diffuse surface below the ball.
 ![1743034469153](image/README/1743034469153.png)
 ![1743034667544](image/README/1743034667544.png)
+
+Real Time Physically Based Ray Tracing Shader
+---
+
+I have also implemented a Physically Based Rendering (PBR) shader that can perform ray tracing of a scene in a real-time frame rate of above 60fps. The PBR shader can tune an object's color (albedo), metallicness and roughness to investigate different material properties. It can also load predefined albedo map, normal map, metalicness map, and roughness map to produce a ray-traced render in real-time.
+
+**White Ball with 50\% metallic and 50\% roughness**
+![1743036248852](image/README/1743036248852.png)
+
+**White Ball with 100\% metallic and 0\% roughness (Chrome)**
+![1743036304209](image/README/1743036304209.png)
+
+**White Ball with 0\% metallic and 0\% roughness (Plastic)**
+![1743036360302](image/README/1743036360302.png)
+
+**Custom Cerberus model with albedo, metallic, roughness, and normal maps**
+![1743036422841](image/README/1743036422841.png)
+![1743036484241](image/README/1743036484241.png)
+
+**Custom Atomizer model with only albedo map**<br>
+Metal-like texture
+![1743036577989](image/README/1743036577989.png)
+Plastic-like texture
+![1743036723378](image/README/1743036723378.png)
+
