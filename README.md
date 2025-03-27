@@ -1,12 +1,9 @@
 # Tony's Render Demo Reel
 
-Intro
-=====
-
 I am Tony, a student studying Computer Graphics and Game Technology at the University of Pennsylvania. I am very interested in computer graphics rendering. Here are some render demos of the projects I have recently done.
 
 Monte Carlo Path Tracer
-=======================
+-----
 
 The Monte Carlo Path Tracer is implemented using C++ and GLSL. It utilizes Monte Carlo estimation of the Light Transportation Equation to repeatedly sample light rays and produce a path traced image. Rendering in this path tracer takes time to converge to a final image as displayed below. The path tracer is able to load cubemap format environment maps and json format scene files. A json scene file consists of light source, object, and texture information. The path tracer supports loading .obj 3D models and their corresponding texture and normal maps.
 
